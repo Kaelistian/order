@@ -29,7 +29,7 @@ function seededRandom(seed: number) {
   };
 }
 
-function createFloatingItems(count = 34): FloatingItem[] {
+function createFloatingItems(count = 18): FloatingItem[] {
   const random = seededRandom(74021);
 
   return Array.from({ length: count }, (_, id) => ({
@@ -55,7 +55,7 @@ export function FloatingBackground() {
   return (
     <div
       aria-hidden="true"
-      className="pointer-events-none fixed inset-0 z-0 overflow-hidden backdrop-blur-[2px]"
+      className="pointer-events-none fixed inset-0 z-0 overflow-hidden backdrop-blur-0 md:backdrop-blur-[2px]"
     >
       <motion.div
         className="absolute inset-0 will-change-transform"
@@ -72,7 +72,7 @@ export function FloatingBackground() {
         {items.map((item) => (
           <motion.span
             key={item.id}
-            className="absolute select-none font-mono text-[clamp(2.4rem,8vw,9rem)] font-black uppercase leading-none tracking-[0.18em] text-white [filter:blur(0.6px)] [text-shadow:0_0_18px_rgba(255,255,255,0.7),0_0_48px_rgba(255,255,255,0.3)] will-change-transform layer-accelerated"
+            className="floating-background-item absolute select-none font-mono text-[clamp(2.4rem,8vw,9rem)] font-black uppercase leading-none tracking-[0.18em] text-white"
             style={{
               left: `${item.left}%`,
               top: `${item.top}%`,

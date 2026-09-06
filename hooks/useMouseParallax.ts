@@ -11,6 +11,10 @@ export function useMouseParallax(strength = 1): MouseParallax {
   const [offset, setOffset] = useState<MouseParallax>({ x: 0, y: 0 });
 
   useEffect(() => {
+    if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+      return;
+    }
+
     let frame = 0;
 
     const handlePointerMove = (event: PointerEvent) => {

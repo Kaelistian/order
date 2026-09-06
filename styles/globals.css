@@ -35,6 +35,18 @@ body::selection {
   color: #ffffff;
 }
 
+.floating-background-item {
+  filter: blur(0.6px);
+  text-shadow: 0 0 18px rgba(255, 255, 255, 0.7), 0 0 48px rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 767px) {
+  .floating-background-item {
+    filter: none;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.35);
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -61,6 +73,13 @@ a {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(20px);
+  }
+
+  @media (max-width: 767px) {
+    .glass-surface,
+    .glass-muted {
+      backdrop-filter: blur(10px);
+    }
   }
 
   .text-balance {
