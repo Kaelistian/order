@@ -52,7 +52,7 @@ export function HeroSection() {
               variants={fadeUp}
               className="mb-5 font-mono text-xs uppercase tracking-[0.42em] text-white/46"
             >
-              Hey, welcome in. It's me
+              Hey, welcome in. It&apos;s me
             </motion.p>
             <motion.h1
               variants={fadeUp}
