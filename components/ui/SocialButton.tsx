@@ -21,9 +21,9 @@ export function SocialButton({
       href={href}
       target={href.startsWith("http") ? "_blank" : undefined}
       rel={href.startsWith("http") ? "noreferrer" : undefined}
-      className={`group inline-flex min-h-12 items-center justify-center gap-3 rounded-full border px-5 text-sm font-medium outline-none transition duration-300 focus-visible:ring-2 focus-visible:ring-cyan-200/70 focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:px-6 ${
+      className={`group inline-flex min-h-12 items-center justify-center gap-3 rounded-full border px-5 text-sm font-medium outline-none transition duration-300 focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:px-6 ${
         isPrimary
-          ? "border-white/14 bg-white text-black hover:bg-cyan-100"
+          ? "border-white/14 bg-white text-black hover:bg-white/[0.85]"
           : "border-white/10 bg-white/[0.04] text-white hover:border-white/18 hover:bg-white/[0.08]"
       }`}
     >

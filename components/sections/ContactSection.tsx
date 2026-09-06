@@ -17,9 +17,9 @@ export function ContactSection() {
   return (
     <Section
       id="contact"
-      eyebrow="Platforms"
-      title="24/7 Available."
-      description="Schedule up any projects."
+      eyebrow="Come say hi"
+      title="Let's make something cool."
+      description="Have an idea, a question, or just want to chat? I’m around."
       className="pb-20"
     >
       <motion.div
@@ -36,7 +36,7 @@ export function ContactSection() {
                 href={link.href}
                 target={link.href.startsWith("http") ? "_blank" : undefined}
                 rel={link.href.startsWith("http") ? "noreferrer" : undefined}
-                className="block rounded-[20px] outline-none focus-visible:ring-2 focus-visible:ring-cyan-200/70"
+                className="block rounded-[20px] outline-none focus-visible:ring-2 focus-visible:ring-white/70"
               >
                 <div className="mb-5 grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/[0.055] text-white transition group-hover:bg-white group-hover:text-black">
                   {link.kind in iconMap ? (

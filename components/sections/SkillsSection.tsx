@@ -10,9 +10,9 @@ export function SkillsSection() {
   return (
     <Section
       id="skills"
-      eyebrow="Skills"
-      title="Here's what i'm able to do."
-      description="Personally learnt by spending my 24 hours."
+      eyebrow="Things I can do"
+      title="A few things I've picked up."
+      description="A mix of skills I've collected while making, breaking, and fixing things."
     >
       <motion.div
         variants={staggerContainer}
@@ -32,7 +32,7 @@ export function SkillsSection() {
                 className={`absolute inset-x-0 top-0 h-24 bg-gradient-to-b ${skill.accent} opacity-0 blur-2xl transition duration-300 group-hover:opacity-100`}
               />
               <div className="relative">
-                <div className="mb-5 h-1.5 w-10 rounded-full bg-white/70 shadow-[0_0_22px_rgba(255,255,255,0.22)] transition duration-300 group-hover:w-14 group-hover:bg-cyan-200" />
+                <div className="mb-5 h-1.5 w-10 rounded-full bg-white/70 shadow-[0_0_22px_rgba(255,255,255,0.22)] transition duration-300 group-hover:w-14 group-hover:bg-white" />
                 <h3 className="text-lg font-semibold tracking-[-0.01em] text-white">
                   {skill.name}
                 </h3>

@@ -6,7 +6,7 @@ import { useMouseParallax } from "@/hooks/useMouseParallax";
 
 type FloatingItem = {
   id: number;
-  label: "Revin" | "REVIN" | "revin";
+  label: "Kari" | "KARI" | "kari";
   left: number;
   top: number;
   opacity: number;
@@ -18,7 +18,7 @@ type FloatingItem = {
   driftY: number;
 };
 
-const labels: FloatingItem["label"][] = ["Revin", "REVIN", "revin"];
+const labels: FloatingItem["label"][] = ["Kari", "KARI", "kari"];
 
 function seededRandom(seed: number) {
   let value = seed % 2147483647;
@@ -55,7 +55,7 @@ export function FloatingBackground() {
   return (
     <div
       aria-hidden="true"
-      className="pointer-events-none fixed inset-0 z-0 overflow-hidden"
+      className="pointer-events-none fixed inset-0 z-0 overflow-hidden backdrop-blur-[2px]"
     >
       <motion.div
         className="absolute inset-0 will-change-transform"
@@ -72,7 +72,7 @@ export function FloatingBackground() {
         {items.map((item) => (
           <motion.span
             key={item.id}
-            className="absolute select-none font-mono text-[clamp(2.4rem,8vw,9rem)] font-black uppercase leading-none tracking-[0.18em] text-white will-change-transform layer-accelerated"
+            className="absolute select-none font-mono text-[clamp(2.4rem,8vw,9rem)] font-black uppercase leading-none tracking-[0.18em] text-white [filter:blur(0.6px)] [text-shadow:0_0_18px_rgba(255,255,255,0.7),0_0_48px_rgba(255,255,255,0.3)] will-change-transform layer-accelerated"
             style={{
               left: `${item.left}%`,
               top: `${item.top}%`,

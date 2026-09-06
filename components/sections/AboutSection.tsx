@@ -10,9 +10,9 @@ export function AboutSection() {
   return (
     <Section
       id="about"
-      eyebrow="About"
-      title="Anything that brings me fun."
-      description="Let me serve you a satisfying magic."
+      eyebrow="A little about me"
+      title="Here's what I love making."
+      description="Have a look around. I'm glad you're here."
     >
       <motion.div
         variants={staggerContainer}

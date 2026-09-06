@@ -13,9 +13,9 @@ export function ProjectsSection() {
   return (
     <Section
       id="projects"
-      eyebrow="Projects"
-      title="A list of my creations."
-      description="Created with the following skills."
+      eyebrow="Things I've made"
+      title="A few projects worth sharing."
+      description="Here’s a small peek at what I’ve been working on."
     >
       <motion.div
         variants={staggerContainer}

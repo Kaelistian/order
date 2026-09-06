@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #050505;
+  --background: #000000;
   --glass: rgba(255, 255, 255, 0.05);
   --glass-muted: rgba(255, 255, 255, 0.03);
   --glass-border: rgba(255, 255, 255, 0.08);
@@ -24,14 +24,14 @@ body {
   margin: 0;
   background: var(--background);
   color: #ffffff;
-  font-family: var(--font-geist-sans), Inter, system-ui, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body::selection {
-  background: rgba(82, 255, 214, 0.28);
+  background: rgba(255, 255, 255, 0.28);
   color: #ffffff;
 }
 

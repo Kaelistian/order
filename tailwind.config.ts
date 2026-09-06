@@ -12,7 +12,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#050505",
+        background: "#000000",
         glass: "rgba(255,255,255,0.05)",
         "glass-muted": "rgba(255,255,255,0.03)",
         "glass-border": "rgba(255,255,255,0.08)"
@@ -22,12 +22,12 @@ const config: Config = {
         mono: ["var(--font-geist-mono)", "SFMono-Regular", "Consolas", "monospace"]
       },
       boxShadow: {
-        glow: "0 0 60px rgba(82, 255, 214, 0.12)",
+        glow: "0 0 60px rgba(255, 255, 255, 0.14)",
         "glass-inset": "inset 0 1px 0 rgba(255,255,255,0.08)"
       },
       backgroundImage: {
         "hero-radial":
-          "radial-gradient(circle at 50% 0%, rgba(82,255,214,0.16), transparent 34%), radial-gradient(circle at 85% 18%, rgba(255,105,180,0.12), transparent 28%), radial-gradient(circle at 15% 35%, rgba(255,210,100,0.10), transparent 30%)"
+          "radial-gradient(circle at 50% 0%, rgba(255,255,255,0.12), transparent 34%), radial-gradient(circle at 85% 18%, rgba(255,255,255,0.07), transparent 28%), radial-gradient(circle at 15% 35%, rgba(255,255,255,0.06), transparent 30%)"
       }
     }
   },

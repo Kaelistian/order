@@ -23,13 +23,13 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://k4el.pages.dev";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Revin | Developer, Designer, Creator",
-    template: "%s | Revin"
+    default: "Kari | Network",
+    template: "%s | Kari"
   },
   description:
-    "Revin is a developer, designer, and creator building polished web experiences, Discord products, and modern digital systems.",
+    "My personal website, made as a profile open for you.",
   keywords: [
-    "Revin",
+    "Kari",
     "portfolio",
     "developer",
     "designer",
@@ -39,27 +39,27 @@ export const metadata: Metadata = {
     "TypeScript",
     "Discord.js"
   ],
-  authors: [{ name: "Revin" }],
-  creator: "Revin",
+  authors: [{ name: "Kari" }],
+  creator: "Kari",
   openGraph: {
     type: "website",
     url: siteUrl,
-    title: "N | Developer, Designer, Creator",
+    title: "Kari | Network",
     description:
       "My personal website, made as a profile open for you.",
-    siteName: "Revin",
+    siteName: "Kari",
     images: [
       {
         url: "/og.svg",
         width: 1200,
         height: 630,
-        alt: "Revin preview"
+        alt: "Kari preview"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "N | Developer, Designer, Creator",
+    title: "Kari | Network",
     description:
       "My personal website, made as a profile open for you.",
     images: ["/og.svg"]
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#050505",
+  themeColor: "#000000",
   colorScheme: "dark"
 };
 

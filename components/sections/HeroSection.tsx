@@ -22,7 +22,7 @@ export function HeroSection() {
       >
         <motion.div
           aria-hidden="true"
-          className="absolute left-1/2 top-1/2 -z-10 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-300/12 blur-3xl sm:h-[30rem] sm:w-[30rem]"
+          className="absolute left-1/2 top-1/2 -z-10 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/10 blur-3xl sm:h-[30rem] sm:w-[30rem]"
           animate={{
             scale: [1, 1.14, 1],
             opacity: [0.44, 0.74, 0.44]
@@ -41,18 +41,18 @@ export function HeroSection() {
             />
             <div
               aria-hidden="true"
-              className="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-rose-300/10 blur-3xl"
+              className="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-white/[0.07] blur-3xl"
             />
             <div
               aria-hidden="true"
-              className="absolute -bottom-28 -left-20 h-72 w-72 rounded-full bg-emerald-300/10 blur-3xl"
+              className="absolute -bottom-28 -left-20 h-72 w-72 rounded-full bg-white/6 blur-3xl"
             />
 
             <motion.p
               variants={fadeUp}
               className="mb-5 font-mono text-xs uppercase tracking-[0.42em] text-white/46"
             >
-              Network
+              Hey, welcome in. It's me
             </motion.p>
             <motion.h1
               variants={fadeUp}
@@ -78,18 +78,18 @@ export function HeroSection() {
             >
               <SocialButton
                 href={profile.saweriaUrl}
-                label="Supports"
+                label="Support me"
                 icon={faMoneyBillWave}
                 variant="primary"
               />
               <SocialButton
                 href="#contact"
-                label="Links"
+                label="Say hi"
                 icon={faPaperclip}
               />
                 <SocialButton
                 href={profile.communityUrl}
-                label="Community"
+                label="Join in"
                 icon={faDiscord}
               />
             </motion.div>

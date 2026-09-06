@@ -9,78 +9,78 @@ export const navItems: NavItem[] = [
 ];
 
 export const profile = {
-  name: "Revin",
-  role: "Developer • Designer • Creator",
+  name: "Kari",
+  role: "Happy to see you!",
   description:
-    "I'm looking forward to have better experiences.",
-  tiktokUrl: "https://tiktok.com/@r_vnra",
-  saweriaUrl: "https://saweria.co/rvnra",
-  discordUrl: "https://discord.com/users/1288936739561279618",
+    "I make digital experiences that feel good to use.",
+  tiktokUrl: "https://tiktok.com/@399fps",
+  saweriaUrl: "https://saweria.co/199fps",
+  discordUrl: "https://discord.com/users/635137762021998605",
   communityUrl: "https://discord.com/oauth2/authorize?client_id=1519997070025425058&response_type=code&redirect_uri=https%3A%2F%2Fredirect.kaelistian.workers.dev%2Fcallback&scope=identify+guilds.join",
-  discordHandle: "@rvnra",
-  email: "hello@revin.dev"
+  discordHandle: "@199fps",
+  email: "hello@kari.dev"
 };
 
 export const aboutCards = [
   {
-    eyebrow: "Introduction",
-    title: "Design-minded engineering for modern web products.",
+    eyebrow: "A little about me",
+    title: "I like making digital things feel good.",
     body:
-      "Revin builds polished interfaces, scalable frontends, and developer tools that balance visual atmosphere with practical performance."
+      "I build polished interfaces, flexible frontends, and developer tools with equal parts curiosity and care."
   },
   {
-    eyebrow: "Current Focus",
-    title: "Premium web experiences and Discord-powered systems.",
+    eyebrow: "What I'm into",
+    title: "Good-looking websites and useful Discord systems.",
     body:
-      "The current stack centers on a bunch of tools for products that ship quickly and stay maintainable."
+      "Right now, I'm exploring tools and ideas that help products ship quickly without becoming a headache to maintain."
   },
   {
-    eyebrow: "Experience",
-    title: "From landing pages to full product foundations.",
+    eyebrow: "Along the way",
+    title: "From landing pages to the stuff behind them.",
     body:
-      "Experience spans responsive UI, backend integrations, database modeling, API design, automation, and production-minded deployment workflows."
+      "I've worked across responsive UI, backend integrations, APIs, automation, and the little details that help things run smoothly."
   }
 ];
 
 export const skills: Skill[] = [
   {
     name: "Discord.js",
-    description: "Created a discord bot with multiple functions.",
-    accent: "from-cyan-300/24 to-white/0"
+    description: "A Discord bot with a bunch of useful little tricks.",
+    accent: "from-white/20 to-white/0"
   },
     {
     name: "Node.js",
-    description: "Developed fast server-side architectures and real-time backend systems using JavaScript.",
-    accent: "from-green-500/24 to-white/0"
+    description: "Fast server-side architecture and real-time systems, all powered by JavaScript.",
+    accent: "from-white/20 to-white/0"
   },
   {
     name: "HTML",
-    description: "Built semantic structures for web pages with proper SEO and accessibility foundations.",
-    accent: "from-orange-500/24 to-white/0"
+    description: "Clean, semantic page structures that are friendly to people and search engines.",
+    accent: "from-white/20 to-white/0"
   },
   {
     name: "CSS",
-    description: "Designed responsive layout systems with modern styling and responsive adaptations.",
-    accent: "from-blue-500/24 to-white/0"
+    description: "Responsive layouts that look right and behave nicely on every screen.",
+    accent: "from-white/20 to-white/0"
   },
   {
     name: "JavaScript",
-    description: "Implemented dynamic frontend features, state logic, and async API integrations.",
-    accent: "from-yellow-400/24 to-white/0"
+    description: "Interactive frontend features, state logic, and API integrations that keep things moving.",
+    accent: "from-white/20 to-white/0"
   },
   {
     name: "Accompany You",
-    description: "Of course, why not?",
-    accent: "from-yellow-400/24 to-white/0"
+    description: "Because building things together is more fun.",
+    accent: "from-white/20 to-white/0"
   },
 ];
 
 export const projects: Project[] = [
   {
-    title: "Mr. Haven",
+    title: "Haven",
     description: "A Discord.js automation layer with typed commands, clean moderation flows, and polished community utilities.",
     technologies: ["Node.js", "Discord.js"],
-    thumbnail: "/projects/haven.jpg"
+    thumbnail: "/projects/haven.webp"
   }
 ];
 
@@ -93,7 +93,7 @@ export const contactLinks: ContactLink[] = [
   },
   {
     label: "TikTok",
-    value: "tiktok.com/@r_vnra",
+    value: "@399fps",
     href: profile.tiktokUrl,
     kind: "tiktok"
   }
